@@ -1,7 +1,7 @@
 import { VFC } from 'react'
 import styled from 'styled-components'
 
-const FotterWrapper = styled.footer`
+const HeaderWrapper = styled.header`
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -10,8 +10,8 @@ const FotterWrapper = styled.footer`
   align-items: center;
 `
 
-const Footer: VFC = () => {
-  return <FotterWrapper>©️ yatoi 2022.</FotterWrapper>
+const Header: VFC = () => {
+  return <HeaderWrapper>yatoi</HeaderWrapper>
 }
 
-export default Footer
+export default Header
